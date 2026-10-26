@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tds099.github.io/yuxudao-history/sitemap.xml
