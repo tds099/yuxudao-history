@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Awakening Archive | Yu Xudao</title>
     <style>
-        body { background: #faf9f6; color: #2c2c2c; font-family: 'Helvetica Neue', sans-serif; padding: 60px 20px; max-width: 800px; margin: auto; }
-        h1 { color: #1a1a1a; text-align: center; font-size: 2.5rem; font-weight: normal; font-family: 'Georgia', serif; margin-bottom: 10px; }
-        .subtitle { text-align: center; color: #888; font-size: 1rem; margin-bottom: 60px; font-family: 'Georgia', serif; font-style: italic; }
-        .article-list { display: flex; flex-direction: column; gap: 20px; }
-        .article-item { background: #ffffff; border: 1px solid #eaeaea; border-radius: 12px; padding: 30px; text-decoration: none; transition: 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.02); }
-        .article-item:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(0,0,0,0.06); border-color: #d4af37; }
-        .article-title { color: #1a1a1a; font-size: 1.3rem; font-family: 'Georgia', serif; margin-bottom: 10px; }
-        .article-desc { color: #777; font-size: 0.95rem; line-height: 1.6; }
+        body { background: #f2f2f2; color: #111; font-family: 'Helvetica Neue', sans-serif; padding: 60px 20px; max-width: 900px; margin: auto; }
+        h1 { color: #111; text-align: left; font-size: 3.5rem; font-weight: 900; letter-spacing: -2px; margin-bottom: 10px; }
+        .subtitle { color: #e63946; font-size: 1.2rem; font-weight: bold; margin-bottom: 60px; border-bottom: 2px solid #111; padding-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        .card { background: #fff; border: 2px solid #111; padding: 30px; text-decoration: none; transition: 0.1s; box-shadow: 4px 4px 0px #111; display: block; }
+        .card:hover { box-shadow: 8px 8px 0px #e63946; transform: translate(-4px, -4px); }
+        .card-title { color: #111; font-size: 1.4rem; font-weight: 900; margin-bottom: 10px; }
+        .card-desc { color: #555; font-size: 0.9rem; }
     </style>
 </head>
 <body>
-    <h1>The Awakening Archive</h1>
-    <div class="subtitle">Uncovering the history of human pain. Researched by Yu Xudao.</div>
-    <div class="article-list">
-<a href="posts/workplace-burnout.html" class="article-item"><div class="article-title">The History of Workplace Burnout</div><div class="article-desc">Exploring the fake presets and modern solutions of Workplace Burnout.</div></a>
-<a href="posts/sleep-deprivation.html" class="article-item"><div class="article-title">The History of Sleep Deprivation</div><div class="article-desc">Exploring the fake presets and modern solutions of Sleep Deprivation.</div></a>
-<a href="posts/insomnia.html" class="article-item"><div class="article-title">The History of Insomnia</div><div class="article-desc">Exploring the fake presets and modern solutions of Insomnia.</div></a>
-<a href="posts/information-overload.html" class="article-item"><div class="article-title">The History of Information Overload</div><div class="article-desc">Exploring the fake presets and modern solutions of Information Overload.</div></a>
-<a href="posts/burnout.html" class="article-item"><div class="article-title">The History of Burnout</div><div class="article-desc">Exploring the fake presets and modern solutions of Burnout.</div></a>
-<a href="posts/hair-loss.html" class="article-item"><div class="article-title">The History of Hair Loss</div><div class="article-desc">Exploring the fake presets and modern solutions of Hair Loss.</div></a>
-<a href="posts/burnout.html" class="article-item"><div class="article-title">The History of Burnout</div><div class="article-desc">Exploring the fake presets and modern solutions of Burnout.</div></a>
-<a href="posts/social-anxiety.html" class="article-item"><div class="article-title">The History of Social Anxiety</div><div class="article-desc">Exploring the fake presets and modern solutions of Social Anxiety.</div></a>
-<a href="posts/hair-loss.html" class="article-item"><div class="article-title">The History of Hair Loss</div><div class="article-desc">Exploring the fake presets and modern solutions of Hair Loss.</div></a>
+    <h1>THE AWAKENING ARCHIVE</h1>
+    <div class="subtitle">Uncovering the history of human pain. No presets. Only reality.</div>
+    <div class="grid">
+<a href="posts/workplace-burnout.html" class="card"><div class="card-title">Workplace Burnout</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/sleep-deprivation.html" class="card"><div class="card-title">Sleep Deprivation</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/insomnia.html" class="card"><div class="card-title">Insomnia</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/information-overload.html" class="card"><div class="card-title">Information Overload</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/burnout.html" class="card"><div class="card-title">Burnout</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/hair-loss.html" class="card"><div class="card-title">Hair Loss</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/burnout.html" class="card"><div class="card-title">Burnout</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/social-anxiety.html" class="card"><div class="card-title">Social Anxiety</div><div class="card-desc">Read the historical analysis →</div></a>
+<a href="posts/hair-loss.html" class="card"><div class="card-title">Hair Loss</div><div class="card-desc">Read the historical analysis →</div></a>
     </div>
 </body>
 </html>
